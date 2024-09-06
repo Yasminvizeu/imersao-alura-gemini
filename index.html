@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Imersao Alura</title>
+</head>
+
+<body>
+    <header>
+        <h1 class="titulo">
+            Imersão Alura + Google Gemini
+        </h1>
+    </header>
+    <main>
+        <div class="container">
+            <section class="search-container">
+                <input class="search-input" type="text" placeholder="Digite sua busca">
+                <!-- <button class="search-button" 
+                onclick=pesquisar()>Pesquisar</button> -->
+                <button class="search-button" onclick="pesquisar()">Pesquisar</button>
+                <button class="list-button" onclick="listar()">Projetos</button>
+
+            </section>
+            <div class="result-container" id="search-result">
+                <!-- Resultados da pesquisa serão mostrados aqui -->
+            </div>
+            <a class="link" href="https://github.com/Yasminvizeu"  target="_blank">
+                Para ver todos os meus projetos visite meu GitHub
+            </a>
+        </div>
+    </main>
+    <footer>
+        <p>2024 - Imersão Alura - Todos os direitos reservados</p>
+    </footer>
+
+    <script type="module" src="app.js"></script>
+    <script type="module" src="dados.js"></script>
+</body>
+
+</html>
